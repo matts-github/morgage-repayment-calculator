@@ -1,0 +1,18 @@
+/* Hide the results by default */
+.show-results {
+    display: none;
+}
+
+h1 {
+    color: hsl(202, 55%, 16%);
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 700;
+}
+
+a {
+    color: hsl(200, 24%, 40%);
+}
+
+label {
+    color: hsl(200, 24%, 40%);
+}

@@ -25,21 +25,33 @@
   <h1>Mortgage Calculator</h1>
   <a href="">Clear All</a>
 <form>
-  <label for="mortgage-amount">Mortgage Amount</label>
-  <input type="text" id="mortgage-amount" name="mortgage-amount">
+  <div class="form-section">
+    <label for="mortgage-amount">Mortgage Amount</label>
+    <input type="text" id="mortgage-amount" name="mortgage-amount">
+  </div>
 
-  <label for="mortgage-term">Mortgage Term</label>
-  <input type="text" id="mortgage-term" name="mortgage-term">
+  <div class="form-section">
+    <label for="mortgage-term">Mortgage Term</label>
+    <input type="text" id="mortgage-term" name="mortgage-term">
+  </div>
+  
+  <div class="form-section">
+    <label for="interest-rate">Interest Rate</label>
+    <input type="text" id="interest-rate" name="interest-rate">
+  </div>
 
-  <label for="interest-rate">Interest Rate</label>
-  <input type="text" id="interest-rate" name="interest-rate">
-
-  <p>Mortgage Type</p>
-  <input type="radio" id="repayment" name="mortgage-type" value="repayment">
-  <label for="repayment">Repayment</label><br>
-
-  <input type="radio" id="interest" name="mortgage-type" value="interest-only">
-  <label for="interest">Interest Only</label><br>
+  <div class="form-section">
+    <p>Mortgage Type</p>
+    <div class="radio-group">
+      <input type="radio" id="repayment" name="mortgage-type" value="repayment">
+      <label for="repayment">Repayment</label><br>
+    </div>
+      
+    <div class="radio-group">
+      <input type="radio" id="interest" name="mortgage-type" value="interest-only">
+      <label for="interest">Interest Only</label><br>
+    </div>
+  </div>
 </form>
   <button>Calculate Repayments</button>
 
